@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Playwrite+HR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@448&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+/*font-family: "LXGW WenKai TC";中文字體*/
+/*font-family: "Playwrite CU";英文字體*/
+
+
+div#z-index1{
+    z-index: 2;
+   
+}
+div#z-index12{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+div#flow-chart-text{
+    z-index: 2;
+    font-family: "LXGW WenKai TC";
+    text-indent: 2em; /* 首行縮進兩個字 */
+    text-align: justify; /* 兩端對齊 */
+    text-justify: inter-word; /* 調整字間距確保對齊 */
+    margin-bottom: 1em; /* 段落之間的間距 */
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.flow-chart-center{ /*圖要置中*/
+    width: 820px;
+}
+
+div#flow-chart-title{ /*流程圖標題*/
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    font-family: "LXGW WenKai TC";
+    font-size:28px ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin-top: 20px;
+}
+
+div#flow-chart{ /*製造流程圖*/
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 370px;
+    border: 2px solid black;
+   
+    margin-top: 20px;
+   
+}

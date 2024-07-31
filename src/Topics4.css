@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Playwrite+HR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@448&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+/*font-family: "LXGW WenKai TC";中文字體*/
+/*font-family: "Playwrite CU";英文字體*/
+
+
+div#test{
+
+    z-index: 2;
+}
+div#Conditiontitle4{ /*標題*/
+    font-family: "LXGW WenKai TC";
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+    margin-top: 20px;
+   
+}
+div#secondflex2{
+   
+    z-index: 2;
+}
+.Condition{
+    font-family: "LXGW WenKai TC";
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Condition2{
+    font-family: "LXGW WenKai TC";
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div#Architecture-diagram{
+    display: flex;
+    
+}
+div#ph029{ /*029圖*/
+    display: flex;
+   justify-content: center;
+    
+}
+
+.Englishtext{ /*開發元件英文字*/
+    font-family: "Edu AU VIC WA NT Hand";
+    font-weight: 500;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 187, 255, 0.6); 
+    display: flex;
+    justify-content: center;
+}
+.EnglishtextDatabase{ /*開發元件database英文標題*/
+    font-family: "Edu AU VIC WA NT Hand";
+    font-weight: 500;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 187, 255, 0.6); 
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+}
+.EnglishtextApp{
+    font-family: "Edu AU VIC WA NT Hand";
+    font-weight: 500;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 187, 255, 0.6); 
+    display: flex;
+    justify-content: center;
+    margin-right: 60px;
+  
+}
+
+div#centerWeb{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+div#centerSever{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#centerDatabase{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+div#centerApp{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

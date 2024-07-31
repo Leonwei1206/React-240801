@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Playwrite+HR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@448&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+/*font-family: "LXGW WenKai TC";中文字體*/
+/*font-family: "Playwrite CU";英文字體*/
+
+div#flow-chart-title6{ /*流程圖標題*/
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    font-family: "LXGW WenKai TC";
+    font-size:28px ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin-top: 20px;
+}
+
+div#flexsecond6{ /*第二層的大小*/
+    margin-top: 10px;
+    z-index: 2;
+    
+}
+div#z-index{
+    z-index: 2;
+}
+
+.Png043{ /*043邊框*/
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding-bottom:6% ;
+    padding-top: 1%;
+    
+}
+
+.Png042{ /*042邊框*/
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding-top: 2%;
+}
+
+.text6{ /*系統流程圖 小標題*/
+    font-family: "LXGW WenKai TC";
+    font-size:16px ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.flow-chart-text6{
+    z-index: 2;
+    font-family: "LXGW WenKai TC";
+    text-indent: 2em; /* 首行縮進兩個字 */
+    text-align: justify; /* 兩端對齊 */
+    text-justify: inter-word; /* 調整字間距確保對齊 */
+    margin-bottom: 1em; /* 段落之間的間距 */
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+   width: 430px;
+    
+}
+.flow-chart-text6-2{
+    z-index: 2;
+    font-family: "LXGW WenKai TC";
+    text-indent: 2em; /* 首行縮進兩個字 */
+    text-align: justify; /* 兩端對齊 */
+    text-justify: inter-word; /* 調整字間距確保對齊 */
+    margin-bottom: 1em; /* 段落之間的間距 */
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    width: 440px;
+    margin-left: 5px;
+    
+}

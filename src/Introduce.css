@@ -1,0 +1,176 @@
+/*---------------------------Introduce-------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Playwrite+HR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+
+div#IntroduceOnelevel{
+  background-color: #ccc8c0; /* 背景色 */
+  padding: 10px; /* 內邊距 */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7); /* 陰影效果 */
+  border-radius: 5px; /* 圓角 */
+  height: 55px;
+  z-index: 1000; /* 確保在其他內容上方 */
+  position: fixed;
+  width: 100%; /* 寬度佔滿整個視窗 */
+}
+div#secondbg{
+  margin-top: 30px;
+  width: 100%;
+  height: 600px;
+  background-image: url('./image/012.jpg');
+  background-position: center; /* 背景图片居中 */
+  background-repeat: no-repeat; /* 背景图片不重复 */
+  background-size: cover;
+ 
+
+}
+
+div#secondFlex2{
+  height: 500px;
+}
+div#Introducetitle{
+  width: 100%;
+  /* App.css */
+  font-family: "Playwrite CU";
+  font-size: 32px;
+  display: flex;
+  justify-content: center; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+  
+}
+
+div#secondflexleft{
+  width: 38%;
+  /* App.css */
+  font-family: "Playwrite CU";
+  font-size: 15px;
+  display: flex;
+  justify-content: center; 
+ 
+}
+div#secondflexcenter{
+    width: 24%;
+    /* App.css */
+    font-family: "Playwrite CU";
+    font-size: 15px;
+    display: flex;
+    justify-content: center; 
+   
+  }
+  div#secondflexright{
+    width: 38%;
+    /* App.css */
+    font-family: "Playwrite CU";
+    font-size: 15px;
+    display: flex;
+    justify-content: center; 
+   
+  }
+
+.image-container { /*頭貼設置*/
+  display: flex;
+  margin-right: 100px;
+ 
+  
+}
+
+.rounded-image { /*頭貼設置*/
+  width: 150px;  /* 根据需要调整图片大小 */
+  height: 150px; /* 根据需要调整图片大小 */
+  border-radius: 50%; /* 使图片变成圆形 */
+  object-fit: cover; /* 保持图片的比例 */
+  border: 2px solid #ccc; /* 可选：添加一个边框 */
+  margin-top: 5px;
+}
+
+div#ChineseType{
+  font-family: "LXGW WenKai TC";
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+div#autobiography{/*自傳*/
+    font-family: "LXGW WenKai TC";
+    font-weight: 400;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    margin-top: 0px;
+    
+}
+div#introductionself{/*自傳內容*/
+    font-family: "LXGW WenKai TC";
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    /*justify-content: center;  水平置中*/
+    
+}
+
+div#centertext{
+  display: flex; 
+ 
+}
+
+div#flex3bg{  
+    width: 100%;
+    height: 500px;
+    /*background-image: url('./image/013.jpg');*/
+    background-position: center; /* 背景图片居中 */
+    background-repeat: no-repeat; /* 背景图片不重复 */
+    background-size: cover;
+}
+
+.introducetext{ /*文字*/
+  text-indent: 2em; /* 首行縮進兩個字 */
+  text-align: justify; /* 兩端對齊 */
+  text-justify: inter-word; /* 調整字間距確保對齊 */
+  margin-bottom: 1em; /* 段落之間的間距 */
+  margin-left: 10px;
+}
+.introducetext2{ /*文字*/
+  text-indent: 2em; /* 首行縮進兩個字 */
+  text-align: justify; /* 兩端對齊 */
+  text-justify: inter-word; /* 調整字間距確保對齊 */
+  margin-bottom: 1em; /* 段落之間的間距 */
+  
+}
+
+div#bg3{
+  width: 100%;
+    height: 300px;
+    background-image: url('./image/015.jpg');
+    background-position: center; /* 背景图片居中 */
+    background-repeat: no-repeat; /* 背景图片不重复 */
+    background-size: cover;
+    opacity: 0.7; /* 设置透明度 */
+}
+
+div#Certificate{/*證照*/
+  margin-top: 85px;
+  font-family: "LXGW WenKai TC";
+  font-weight: 400;
+  font-size: 28px;
+  display: flex;
+  margin-left: 15px;
+  height: 45px;
+  
+  
+}
+
+div#Certificatetext{
+  font-family: "LXGW WenKai TC";
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  padding-top: 0px;
+  margin-top: 5px;
+
+}
+
+
+div#Introducetitle{
+  width: 33.3%;
+  display: flex;
+}
