@@ -1,8 +1,8 @@
 {
   "name": "client",
+  "homepage": "https://Leonwei1206.github.io/React-test",
   "version": "0.1.0",
   "private": true,
-  
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -18,7 +18,7 @@
     "web-vitals": "^2.1.4"
 
   },
-  "homepage": "https://Leonwei1203.github.io/React-240731",
+  
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
