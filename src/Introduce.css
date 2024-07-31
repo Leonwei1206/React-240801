@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Playwrite+HR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
 
+
 div#IntroduceOnelevel{
   background-color: #ccc8c0; /* 背景色 */
   padding: 10px; /* 內邊距 */
@@ -173,4 +174,30 @@ div#Certificatetext{
 div#Introducetitle{
   width: 33.3%;
   display: flex;
+}
+
+
+
+
+
+  .d-flex > div {
+  flex: 1; /* 自动适应空间 */
+  margin: 5px;
+}
+@media (max-width: 600px) {
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .d-flex > div {
+    width: 100%;
+  }
+}
+    @media (max-width: 600px) {
+  .image-container {
+    margin-right: 0;
+  }
+      .rounded-image {
+  max-width: 100%;
+  height: auto;
 }
