@@ -19,6 +19,109 @@ div#Conditiontitle4{ /*標題*/
     margin-top: 20px;
    
 }
+@media (max-width: 725px) {
+    div#Conditiontitle4{
+        font-family: "LXGW WenKai TC";
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        z-index: 2;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+        margin-top: 20px;
+    }
+  }
+  .Png028{
+     width: 850px;
+     height: 150px;
+     margin-left: 30px;
+     margin-top:30px;
+ }
+ @media (max-width: 725px) {
+   .Png028{
+       width: 100%;
+       height: 30%;
+       margin-left: 5px;
+       margin-top:10px;
+    }
+ }
+ .Png029{
+    width: 320px;
+     height: 100px;
+      margin-left: 140px;
+}
+@media (max-width: 725px) {
+  .Png029{
+      width: 82%;
+      height: 110%;
+      margin-left: 10px;
+
+   }
+}
+.Png030{
+    width: 320px;
+     height: 100px;
+      margin-left: 50px;
+}
+@media (max-width: 725px) {
+  .Png030{
+      width: 82%;
+      height: 110%;
+      margin-left: 20px;
+  
+   }
+}
+
+.Png031{ /*使用元件*/
+     width: 150px;
+     height: 300px;
+     margin-left:60px;
+}
+@media (max-width: 725px) {
+  .Png031{
+      width: 80%;
+      height: 100%;
+      margin-left: 10px;
+  
+   }
+}
+.Png032{/*使用元件*/
+    width: 160px;
+    height: 300px;
+}
+@media (max-width: 725px) {
+ .Png032{
+     width: 80%;
+     height: 100%;
+
+ 
+  }
+}
+.Png033{/*使用元件*/
+    width: 150px;
+    height: 300px;
+}
+@media (max-width: 725px) {
+ .Png033{
+     width: 80%;
+     height: 100%;
+     
+ 
+  }
+}
+.Png034{/*使用元件*/
+    width: 170px;
+    height: 300px;
+    margin-right:60px;
+
+}
+@media (max-width: 725px) {
+ .Png034{
+     width: 80%;
+     height: 100%;
+     margin-right: 10px;
+ 
+  }
+}
 div#secondflex2{
    
     z-index: 2;
@@ -57,6 +160,16 @@ div#ph029{ /*029圖*/
     display: flex;
     justify-content: center;
 }
+@media (max-width: 725px) {
+    .Englishtext{ /*開發元件英文字*/
+        font-family: "Edu AU VIC WA NT Hand";
+        font-weight: 500;
+        font-size: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 187, 255, 0.6); 
+        display: flex;
+        justify-content: center;
+    }
+   }
 .EnglishtextDatabase{ /*開發元件database英文標題*/
     font-family: "Edu AU VIC WA NT Hand";
     font-weight: 500;
@@ -66,6 +179,17 @@ div#ph029{ /*029圖*/
     justify-content: center;
     margin-left: 60px;
 }
+@media (max-width: 725px) {
+    .EnglishtextDatabase{ /*開發元件database英文標題*/
+        font-family: "Edu AU VIC WA NT Hand";
+        font-weight: 500;
+        font-size: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 187, 255, 0.6); 
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+    }
+   }
 .EnglishtextApp{
     font-family: "Edu AU VIC WA NT Hand";
     font-weight: 500;
@@ -76,15 +200,31 @@ div#ph029{ /*029圖*/
     margin-right: 60px;
   
 }
-
-div#centerWeb{
-   
+@media (max-width: 725px) {
+    .EnglishtextApp{
+        font-family: "Edu AU VIC WA NT Hand";
+        font-weight: 500;
+        font-size: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 187, 255, 0.6); 
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+      
+    }
+   }
+div#centerWeb{   
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
+@media (max-width: 725px) {
+    div#centerWeb{   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 160px;
+    }
+   }
 div#centerSever{
     
     display: flex;

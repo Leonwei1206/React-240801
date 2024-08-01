@@ -6,11 +6,11 @@
 
 div#z-indexget{
     z-index: 2;
-    
+    height: 100%;
    
 }
 
-div#Conditiontitle10{ /*標題*/
+div#Conditiontitleget{ /*標題*/
     font-family: "LXGW WenKai TC";
     font-size: 28px;
     display: flex;
@@ -20,7 +20,18 @@ div#Conditiontitle10{ /*標題*/
     margin-top: 20px;
    
 }
-
+@media (max-width: 725px) {
+  div#Conditiontitleget{ /*標題*/
+    font-family: "LXGW WenKai TC";
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin-top: 20px;
+   
+}
+}
 .video-player-get{
   width: 90%;
   margin-top: 20px;
@@ -51,7 +62,7 @@ div#Conditiontitle10{ /*標題*/
 
   }
 
-  div#ExcelMonitortext{ /*解說文字*/
+  div#ExcelMonitortextget{ /*解說文字*/
     font-family: "LXGW WenKai TC";
     font-size: 16px;
     text-align: justify; /* 兩端對齊 */
@@ -61,7 +72,18 @@ div#Conditiontitle10{ /*標題*/
     display: flex;
     justify-content: center;
   }
-
+  @media (max-width: 725px) {
+    div#ExcelMonitortextget{ /*解說文字*/
+      font-family: "LXGW WenKai TC";
+      font-size: 10px;
+      text-align: justify; /* 兩端對齊 */
+      text-justify: inter-word;/* 通過單詞之間的間距進行對齊 */
+      text-indent: 2em;
+      margin-right: 0px;
+      display: flex;
+      justify-content: center;
+    }
+  }
  .video-get{ /*影片框架調整*/
     display: flex;
     justify-content: center;

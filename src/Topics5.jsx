@@ -19,7 +19,7 @@ function Topics5() {
       <div className="p-2"id="z-index12"style={{width:"100%"}}>
         {/*Flex item 2流程圖*/}
         <div className="p-2"id="flow-chart">
-        <img src={Png040} alt="040"/>
+        <img className="Png040"src={Png040} alt="040"/>
         </div>
         
       </div>

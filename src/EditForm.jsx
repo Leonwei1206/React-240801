@@ -33,7 +33,7 @@ function EditForm({addTodo,todo,deleteok}) {
             <input id="#" type="text" placeholder="輸入今日需完成事項"value={content} onChange={(e) => {
                 setContent(e.target.value)}
             }/>
-            <button id="#"type="submit" >完成</button>
+            <button id="into"type="submit" >完成</button>
 
         </form>
 

@@ -16,6 +16,42 @@ div#Conditiontitle3{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
     margin-top: 20px;
 }
+@media (max-width: 725px) {
+    div#Conditiontitle3{
+        font-family: "LXGW WenKai TC";
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        z-index: 2;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+        margin-top: 20px;
+    }
+  }
+
+  .Png025{
+     width: 400px;
+     height: 150px;
+     margin-left: 30px;
+  }
+  @media (max-width: 725px) {
+    .Png025{
+        width: 60%;
+        height: 27%;
+        margin-left: 20px;
+     }
+  }
+  .Png026{
+    width: 600px;
+    height: 150px;
+    margin-left: 50px;
+ }
+ @media (max-width: 725px) {
+   .Png026{
+       width: 80%;
+       height: 35%;
+       margin-left: 20px;
+    }
+ }
 div#secondflex2{
    
     z-index: 2;
@@ -40,4 +76,44 @@ div#secondflex2{
     font-size: 16px;
     display: flex;
     justify-content: center;
+    margin-top:20px;
 }
+
+@media (max-width: 725px) {
+    .Conditiontext{
+        font-family: "LXGW WenKai TC";
+        font-size: 9px;
+        display: flex;
+        justify-content: center;
+        text-indent: 2em; /* 首行縮進兩個字 */
+        text-align: justify; /* 兩端對齊 */
+        text-justify: inter-word; /* 調整字間距確保對齊 */
+        margin-top:10px;
+    }
+  }
+  .Conditiontext223-1{
+    font-family: "LXGW WenKai TC";
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+
+@media (max-width: 725px) {
+    .Conditiontext223-1{
+        font-family: "LXGW WenKai TC";
+        font-size: 9px;
+        display: flex;
+        justify-content: center;
+        margin-top:0px;
+    }
+  }
+@media (max-width: 725px) {
+    .text223{
+      font-family: "LXGW WenKai TC";
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }

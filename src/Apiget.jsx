@@ -40,7 +40,7 @@ function Apiget() {
       <div className="p-2" id="z-indexget">
         {/*Flex item 1影片文字介紹*/}
         <div className="d-flex flex-row-reverse">
-          <div className="p-2" id="ExcelMonitortext">
+          <div className="p-2" id="ExcelMonitortextget">
             {/*Flex item 1 監控影片內容*/}
             <div className="get-text">
             因資料庫的關係怕進來後無法操作所以錄製影片來展示，可以在欄位中輸入姓名及年齡後，
@@ -54,8 +54,8 @@ function Apiget() {
       <div className="p-2" id="z-indexget">
         {/*Flex item 2影片*/}
         <div className="d-flex flex-row-reverse">
-          <div className="p-2" style={{ width: "12%" }}></div>
-          <div className="p-2" style={{ width: "70%" }}>
+          <div className="p-2" style={{ width: "7%" }}></div>
+          <div className="p-2" style={{ width: "80%" }}>
             <div className="video-get">
               <video ref={ExcelvideoRef} className="video-player-get" controls>
                 <source src={Excelmov} type="video/mp4" />
@@ -76,10 +76,10 @@ function Apiget() {
               </div>
             </div>
           </div>
-          <div className="p-2" style={{ width: "18%" }}></div>
+          <div className="p-2" style={{ width: "13%" }}></div>
         </div>
       </div>
-      <div className="p-2" id="Conditiontitle10">
+      <div className="p-2" id="Conditiontitleget">
         {/*Flex item 3標題*/}
         Add 及顯示影片展示
       </div>

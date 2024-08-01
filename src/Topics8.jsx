@@ -69,12 +69,12 @@ function Topics8() {
       <div className="p-2" id="z-index1">
         {/*Flex item 1影片文字介紹*/}
         <div className="d-flex flex-row-reverse">
-          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext">
+          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext08">
             {/*Flex item 1 多選派工影片內容*/}
            多選派工跟單選派工原理差不多，差別在於多選派工可以一次分派多個以上的部位，
            分派到員工的ID後，一樣會進行當日的工作內容。
           </div>
-          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext">
+          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext08">
             {/*Flex item 2 單選派工影片內容*/}
             製令單匯入資料後，將各部位的尺寸及數量抓出來，進行派工，單選派工是指一次只能派工一個部位，
             單個部位不同尺寸也能分很多次進行派工，派工能選擇要派到哪位員工上，也就是須完成的工作內容。
@@ -129,7 +129,7 @@ function Topics8() {
           </div>
         </div>
       </div>
-      <div className="p-2" id="Conditiontitle10">
+      <div className="p-2" id="Conditiontitle08">
         {/*Flex item 3標題*/}
         單選派工及多選派工影片展示
       </div>

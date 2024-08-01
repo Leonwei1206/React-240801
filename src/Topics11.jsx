@@ -45,11 +45,11 @@ function Topics11() {
       <div className="p-2" id="z-index1">
         {/*Flex item 1影片文字介紹*/}
         <div className="d-flex flex-row-reverse">
-          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext">
+          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext11">
             {/*Flex item 1 感應防偽影片內容*/}
             上個步驟將NFC ID中輸入該鞋子的資訊，消費者購買後可以感應取得資訊來達到防偽的效果。
           </div>
-          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext1">
+          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext11">
             {/*Flex item 2 鞋子資訊輸入影片內容*/}
             在NFC ID中輸入鞋子的資訊。
           </div>
@@ -90,9 +90,9 @@ function Topics11() {
           </div>
         </div>
       </div>
-      <div className="p-2" id="Conditiontitle10">
+      <div className="p-2" id="Conditiontitle11">
         {/*Flex item 3標題*/}
-        鞋子資訊輸入及感應防偽影片展示
+        資料輸入及感應防偽影片展示
       </div>
     </div>
   );

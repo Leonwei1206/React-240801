@@ -69,13 +69,13 @@ function Topics10() {
       <div className="p-2" id="z-index10">
         {/*Flex item 1影片文字介紹*/}
         <div className="d-flex flex-row-reverse">
-          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext">
+          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext10">
             {/*Flex item 1 監控影片內容*/}
             匯入完成後，接下來會進行派工將每位員工每日工作分配，
             後續員工將今日完成的內容從手機App端進行回報，回報完將資料計算後呈現出完成情況，
             可讓管理者進行即時的監控。
           </div>
-          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext">
+          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext10">
             {/*Flex item 2 Excel影片內容*/}
             員工打卡及回報狀況都可以在這邊查看，查看全部員工的上班狀況有無遲到，
             並且可以再點詳細資料查看個人工作完成狀況。

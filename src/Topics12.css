@@ -18,7 +18,18 @@ div#Conditiontitle12{ /*標題*/
     margin-top: 20px;
    
 }
-
+@media (max-width: 725px) {
+  div#Conditiontitle12{ /*標題*/
+    font-family: "LXGW WenKai TC";
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin-top: 20px;
+   
+}
+}
 .video-player {
     width: 97%;
     max-width: 800px;
@@ -70,9 +81,25 @@ div#Conditiontitle12{ /*標題*/
     text-indent: 2em;
     margin-right: 17px;
   }
-
+  @media (max-width: 725px) {
+    div#Apptext{
+      font-family: "LXGW WenKai TC";
+      font-size: 9px;
+      text-align: justify; /* 兩端對齊 */
+      text-justify: inter-word;/* 通過單詞之間的間距進行對齊 */
+      text-indent: 2em;
+      margin-right: 0px;
+    }
+  }
   div#flexcenter12{
     display: flex;
     justify-content: center;
     margin-top: 10px;
+  }
+  @media (max-width: 725px) {
+    div#flexcenter12{
+      display: flex;
+      justify-content: center;
+      margin-top: 0px;
+    }
   }

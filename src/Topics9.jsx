@@ -69,15 +69,15 @@ function Topics9() {
       <div className="p-2" id="z-index9">
         {/*Flex item 1影片文字介紹*/}
         <div className="d-flex flex-row-reverse">
-          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext">
+          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext09">
             {/*Flex item 1 預覽派工單影片內容*/}
             派工完成時，可以將派工單列印出來，並且先預覽派工單。
           </div>
-          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext">
+          <div className="p-2" style={{ width: "50%" }}id="ExcelMonitortext09">
             {/*Flex item 2 App回報影片內容*/}
-            當主管進行派工後，員工感應自己的NFC TAG就會顯示影片中的介面，
-            接著有主管派工的部位尺寸及數量，接著按照每日完成的進度進行回報，
-            填完完成數量後再次感應下方就會把自己的ID名稱顯示在操作員上，並完成回報
+            當主管派工後，員工感應自己的NFC TAG就會顯示影片中的介面，
+            會顯示派工的部位尺寸及數量，接著按照每日的進度進行回報，
+            填完完成數量後再次感應下方就會把自己的ID名稱顯示在操作員上，並完成回報。
           </div>
         </div>
       </div>
@@ -108,7 +108,7 @@ function Topics9() {
 
           <div className="p-2" style={{ width: "50%" }}id="videos">
             {/*Flex item 3 Excel影片 */}
-            <video ref={ExcelvideoRef} className="video-player9" controls>
+            <video ref={ExcelvideoRef} className="video-player9-1" controls>
               <source src={Excelmov} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -129,9 +129,9 @@ function Topics9() {
           </div>
         </div>
       </div>
-      <div className="p-2" id="Conditiontitle10">
+      <div className="p-2" id="Conditiontitle09">
         {/*Flex item 3標題*/}
-        員工工作回報及預覽派工單影片展示
+        員工回報及預覽派工單影片展示
       </div>
     </div>
   );

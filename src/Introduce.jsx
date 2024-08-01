@@ -3,8 +3,7 @@ import "./Introduce.css";
 import { Link } from "react-router-dom";
 import Imageleon from "./image/leon.jpg";
 import Gif002 from "./image/002.gif";
-import Gif004 from "./image/004.gif"
-
+import Gif004 from "./image/004.gif";
 
 function Introduce() {
   console.log("Introduce component rendered");
@@ -42,21 +41,31 @@ function Introduce() {
         <div className="p-2" id="secondbg">
           {/*第2層*/}
           <br />
-          <div className="d-flex flex-row mb-3"style={{height:"70px"}}>
-            <div className="p-2"id="Introducetitle">{/*Flex item 1*/}</div>
-            <div className="p-2"id="Introducetitle">{/*Flex item 2*/}
+          <div className="d-flex flex-row mb-3" style={{ height: "70px" }}>
+            <div className="p-2" id="Introducetitle">
+              {/*Flex item 1*/}
+            </div>
+            <div className="p-2" id="Introducetitle">
+              {/*Flex item 2*/}
               Introduce
-              </div>
-            <div className="p-2"id="Introducetitle">{/*Flex item 3*/}
-            <img src={Gif004} alt="烏雲打雷"style={{height:"70px",width:"70px",marginRight:"150px"}} />
+            </div>
+            <div className="p-2" id="Introducetitle">
+              {/*Flex item 3*/}
+              <img
+                className="clouds"
+                src={Gif004}
+                alt="烏雲打雷"
+             
+              />
             </div>
           </div>
-          
+
           <div className="d-flex flex-row mb-3" id="secondFlex2">
             <div className="#" id="secondflexleft">
               {/*1 of 2*/}
               <div
                 className="d-flex flex-column mb-3"
+                id="flexleftcenter"
                 style={{ width: "100%" }}
               >
                 <div className="p-2" style={{ height: "35%", width: "100%" }}>
@@ -71,99 +80,54 @@ function Introduce() {
                   style={{
                     height: "5%",
                     width: "100%",
-                    marginLeft: "13px",
-                    marginTop: "20px",
                   }}
                   id="centertext"
                 >
                   {/*Flex item 2 簡單自介*/}
-                  Name :
-                  <div
-                    id="ChineseType"
-                    style={{ width: "20%", height: "25px" }}
-                  >
-                    劉鎧瑋
-                  </div>
+                  Name :<div id="ChineseType">劉鎧瑋</div>
                 </div>
                 <div
                   className="p-2"
                   style={{
                     height: "5%",
                     width: "100%",
-                    marginTop: "10px",
-                    marginLeft: "10px",
                   }}
                   id="centertext"
                 >
-                  <div
-                    id="ChineseType"
-                    style={{ width: "50%", height: "25px" }}
-                  >
-                    出生：88/12/06
-                  </div>
+                  <div id="ChineseType2">出生：88/12/06</div>
                 </div>
                 <div
                   className="p-2"
                   style={{
                     height: "5%",
                     width: "100%",
-                    marginTop: "10px",
-                    marginLeft: "13px",
                   }}
                   id="centertext"
                 >
-                  Come From :
-                  <div
-                    id="ChineseType"
-                    style={{ width: "20%", height: "25px" }}
-                  >
-                    嘉義
-                  </div>
+                  Come From :<div id="ChineseType">嘉義</div>
                 </div>
                 <div
                   className="p-2"
                   style={{
                     height: "5%",
                     width: "100%",
-                    marginTop: "10px",
-                    marginLeft: "10px",
                   }}
                   id="centertext"
                 >
-                  <div
-                    id="ChineseType"
-                    style={{ width: "60%", height: "25px" }}
-                  >
-                    畢業：國立勤益科技大學
-                  </div>
+                  <div id="ChineseType4">畢業：國立勤益科技大學</div>
                 </div>
                 <div
                   className="p-2"
                   style={{
                     height: "5%",
                     width: "100%",
-                    marginTop: "10px",
-                    marginLeft: "10px",
                   }}
                   id="centertext"
                 >
-                  <div
-                    id="ChineseType"
-                    style={{ width: "50%", height: "25px" }}
-                  >
-                    科系：資訊工程系
-                  </div>
-                  <div style={{ marginLeft: "30px" }}>
-                    <img
-                      src={Gif002}
-                      alt="002"
-                      style={{
-                        width: "100px",
-                        height: "100px",
-                        marginBottom: "30px",
-                      }}
-                    ></img>
-                  </div>
+                  <div id="ChineseType2">科系：資訊工程系</div>
+                </div>
+                <div className="divduck">
+                  <img className="duck" src={Gif002} alt="002"></img>
                 </div>
               </div>
 
@@ -172,32 +136,7 @@ function Introduce() {
               <br />
               <br />
             </div>
-            <div className="#" id="secondflexcenter">
-              {/*2of3*/}
-
-              <div
-                className="d-flex flex-column mb-3"
-                style={{ width: "100%" }}
-              >
-                <div className="p-2" id="Certificate" style={{ width: "100%" }}>
-                  {/*Flex item 1*/}證 照
-                </div>
-                <div className="p-2" id="Certificatetext">
-                  {/*Flex item 2*/}
-                  <ul>
-                    <li>乙級軟體應用</li>
-                    <li>丙級軟體應用</li>
-                    <li>丙級網頁設計</li>
-                    <li>丙級會計事務－人工記帳</li>
-                    <li>丙級會計事務－資訊</li>
-                    <li>丙級印前製程－圖文組版</li>
-                  </ul>
-                </div>
-                <div className="p-2" id="testbggif">
-                  {/*Flex item 3*/}
-                </div>
-              </div>
-            </div>
+            
 
             <div className="p-2" id="secondflexright">
               {/*2 of 2*/}
@@ -211,7 +150,7 @@ function Introduce() {
                 </div>
                 <div
                   className="p-2"
-                  style={{ height: "300px" }}
+                 
                   id="introductionself"
                 >
                   {/*Flex item 2*/}
@@ -227,13 +166,39 @@ function Introduce() {
                   </div>
                 </div>
 
-                <div className="p-2">{/*Flex item 3*/}</div>
-                <div className="p-2">{/*Flex item 3*/}</div>
+                <div className="p-2">{/*Flex item 3*/}<div
+                className="d-flex flex-column mb-3"
+                style={{ width: "100%"}}
+              >
+                <div
+                  className="p-2"
+                  id="Certificate"
+                  
+                >
+                  {/*Flex item 1*/}證 照
+                </div>
+                <div
+                  className="p-2"
+                  id="Certificatetext"
+                  
+                >
+                  {/*Flex item 2*/}
+                  <ul className="ulleft">
+                    <li>乙級軟體應用</li>
+                    <li>丙級軟體應用</li>
+                    <li>丙級網頁設計</li>
+                    <li>丙級會計事務－人工記帳</li>
+                    <li>丙級會計事務－資訊</li>
+                    <li>丙級印前製程－圖文組版</li>
+                  </ul>
+                </div>
+                
+              </div></div>
+               
               </div>
             </div>
           </div>
         </div>
-       
       </div>
     </div>
   );

@@ -19,84 +19,51 @@ function Topics4() {
         {/* Flex item 2*/}
         <div className="Condition">
           {/*架構圖大張 */}
-          <img
-            src={Png028}
-            alt="028"
-            style={{ width: "850px", height: "150px", marginLeft: "30px",marginTop:"30px" }}
-          />
+          <img className="Png028" src={Png028} alt="028" />
         </div>
-        <div className="d-flex flex-row-reverse" id="Architecture-diagram"style={{marginTop:"15px"}}>
+        <div
+          className="d-flex flex-row-reverse"
+          id="Architecture-diagram"
+          style={{ marginTop: "15px" }}
+        >
           <div className="p-2" style={{ width: "50%" }}>
             {/*Flex item 2架構圖文字02*/}
-            <img
-              src={Png030}
-              alt="030"
-              style={{ width: "320px", height: "100px", marginLeft: "50px" }}
-            />
+            <img className="Png030" src={Png030} alt="030" />
           </div>
           <div className="p-2" style={{ width: "50%" }} id="ph029">
             {/*Flex item 1架構圖文字01*/}
-            <img
-              src={Png029}
-              alt="029"
-              style={{ width: "320px", height: "100px", marginLeft: "140px" }}
-            />
+            <img className="Png029" src={Png029} alt="029" />
           </div>
         </div>
 
-        <div className="d-flex flex-row-reverse"style={{marginTop:"20px"}}>{/*開發元件 */}
-          <div className="p-2"style={{width:"28%"}}id="centerApp">
+        <div className="d-flex flex-row-reverse" style={{ marginTop: "20px" }}>
+          {/*開發元件 */}
+          <div className="p-2" style={{ width: "25%" }} id="centerApp">
             {/*Flex item 4APP*/}
-            <div className="EnglishtextApp">
-            APP & NFC TAG
-            </div>
-            
+            <div className="EnglishtextApp">APP & NFC</div>
 
-            <img
-              src={Png034}
-              alt="034"
-              style={{ width: "170px", height: "300px",marginRight:"60px" }}
-            />
-            </div>
+            <img className="Png034" src={Png034} alt="034" />
+          </div>
 
-          <div className="p-2"style={{width:"22%"}}id="centerWeb">
+          <div className="p-2" style={{ width: "25%" }} id="centerWeb">
             {/*Flex item 3Web*/}
-            <div className="Englishtext">
-            Web
-            </div>
-         
-            <img
-              src={Png033}
-              alt="033"
-              style={{ width: "150px", height: "300px" }}
-            />
-            </div>
-          <div className="p-2"style={{width:"22%"}}id="centerSever">
+            <div className="Englishtext">Web</div>
+
+            <img className="Png033" src={Png033} alt="033" />
+          </div>
+          <div className="p-2" style={{ width: "25%" }} id="centerSever">
             {/*Flex item 2sever*/}
-            <div className="Englishtext">
-            Sever
-            </div>
+            <div className="Englishtext">Sever</div>
 
-            <img
-              src={Png032}
-              alt="032"
-              style={{ width: "160px", height: "300px" }}
-            />
-            </div>
+            <img className="Png032" src={Png032} alt="032" />
+          </div>
 
-          <div className="p-2"style={{width:"28%"}}id="centerDatabase">
+          <div className="p-2" style={{ width: "25%" }} id="centerDatabase">
             {/*Flex item 1database*/}
-            <div className="EnglishtextDatabase">
-            Database
-            </div>
+            <div className="EnglishtextDatabase">Database</div>
 
-            <img
-              src={Png031}
-              alt="031"
-              style={{ width: "150px", height: "300px",marginLeft:"60px" }}
-            />
-            </div>
-         
+            <img className="Png031" src={Png031} alt="031" />
+          </div>
         </div>
       </div>
       <div className="p-2" id="Conditiontitle4">

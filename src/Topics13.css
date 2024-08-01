@@ -13,7 +13,17 @@ div#flow-chart-title13{ /*流程圖標題*/
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     margin-top: 20px;
 }
-
+@media (max-width: 725px) {
+    div#flow-chart-title13{ /*流程圖標題*/
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        font-family: "LXGW WenKai TC";
+        font-size:26px ;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        margin-top: 20px;
+    }
+  }
 div#littletitle13{ /*流程圖標題*/
     z-index: 2;
     display: flex;
@@ -23,6 +33,17 @@ div#littletitle13{ /*流程圖標題*/
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     margin-top: 20px;
 }
+@media (max-width: 725px) {
+    div#littletitle13{ /*流程圖標題*/
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        font-family: "LXGW WenKai TC";
+        font-size:22px ;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        margin-top: 0px;
+    }
+  }
 div#littletitle13-2{ /*流程圖標題*/
     z-index: 2;
     display: flex;
@@ -32,9 +53,22 @@ div#littletitle13-2{ /*流程圖標題*/
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     
 }
-
+@media (max-width: 725px) {
+    div#littletitle13-2{ /*流程圖標題*/
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        flex-direction: flex-start;
+        font-family: "LXGW WenKai TC";
+        font-size:22px ;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        margin-top: 0px;
+    }
+  }
 div#z-index13{
     z-index: 2;
+    height: 100%;
+    padding-bottom: 0;
 }
 
 div#completion{
@@ -45,7 +79,16 @@ div#completion{
     margin-top: 20px;
     
 }
-
+@media (max-width: 725px) {
+    div#completion{
+        display: flex;
+        justify-content: center;
+        font-family: "LXGW WenKai TC";
+        font-size:10px ;
+        margin-top: 0px;
+        
+    }
+  }
 div#completion2{
    
     font-family: "LXGW WenKai TC";
@@ -56,7 +99,18 @@ div#completion2{
     text-indent: 2em;
     width: 85%;
 }
-
+@media (max-width: 725px) {
+    div#completion2{
+   
+        font-family: "LXGW WenKai TC";
+        font-size:10px ;
+        margin-top: 0px;
+        text-align: justify; /* 兩端對齊 */
+        text-justify: inter-word;/* 通過單詞之間的間距進行對齊 */
+        text-indent: 2em;
+        width: 85%;
+    }
+  }
 .center13{
     display: flex;
     justify-content: center;

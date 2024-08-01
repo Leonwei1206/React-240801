@@ -54,7 +54,7 @@ function Todo() {
 
   return (
     <div className="wrapper">
-      <h1>代辦事項</h1>
+      <h1 className="Agentsize">代辦事項</h1>
       <CreateForm addTodo={addTodo} todos={todos}/>
       {todos.map((todo) => {
         return <Join tag={tag} addTodo={addTodo}

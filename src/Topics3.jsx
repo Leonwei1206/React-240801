@@ -17,14 +17,15 @@ function Topics3(){
         <div className="p-2" id="secondflex2">
           {/* Flex item 2*/}
           <div className="Condition">
-            (原情況)
+          <div className="text223">(原情況)</div>
             <img
+              className="Png025"
               src={Png025}
               alt="025"
-              style={{ width: "400px", height: "150px", marginLeft: "30px" }}
+   
             />
           </div>
-          <div className="Conditiontext"style={{marginTop:"20px"}}>
+          <div className="Conditiontext223-1">
           購買鞋子後，消費者無法確定是否為正品。
           </div>
   
@@ -32,11 +33,12 @@ function Topics3(){
             className="Condition2"
             style={{ marginTop: "20px", marginLeft: "20px" }}
           >
-            (改善)
+               <div className="text223">(改善)</div>
+
             <img
+              className="Png026"
               src={Png026}
               alt="026"
-              style={{ width: "600px", height: "150px", marginLeft: "50px" }}
             />
           </div>
           <div className="Conditiontext">
